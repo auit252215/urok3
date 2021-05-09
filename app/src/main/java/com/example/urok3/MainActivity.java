@@ -30,14 +30,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(user_field.getText().toString().trim().equals("")){
-                    Toast.makeText(MainActivity.this,R.string.notext,Toast.LENGTH_LONG);
+                    Toast.makeText(MainActivity.this,R.string.notext,Toast.LENGTH_SHORT).show();
 
                 }
-                else
-                {
-                    Toast.makeText(MainActivity.this,R.string.notext,Toast.LENGTH_SHORT);
 
-                }
             }
         });
     }
