@@ -3,5 +3,5 @@
     <string name="logo">Погода в вашем городе</string>
     <string name="user_hint">Введите город</string>
     <string name="gorod">Узнать погоду</string>
-    <string name="notext">Введите текст123</string>
+    <string name="notext">Введите текст</string>
 </resources>
